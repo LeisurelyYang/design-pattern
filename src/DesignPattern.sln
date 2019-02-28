@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticFactory", "StaticFactory\StaticFactory.csproj", "{36EC0B07-6378-4394-8AF8-EC75047AA23C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{A1DD65BF-206A-43A6-8DC2-AB9C0493CA2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{A1DD65BF-206A-43A6-8DC2-AB9C0493CA2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{F9F0CF4E-B98A-47FE-BA8A-A0681F6F3BD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{F9F0CF4E-B98A-47FE-BA8A-A0681F6F3BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{1C794716-9DC6-4D0F-B0E7-D206C177991B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F9F0CF4E-B98A-47FE-BA8A-A0681F6F3BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9F0CF4E-B98A-47FE-BA8A-A0681F6F3BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9F0CF4E-B98A-47FE-BA8A-A0681F6F3BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C794716-9DC6-4D0F-B0E7-D206C177991B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C794716-9DC6-4D0F-B0E7-D206C177991B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C794716-9DC6-4D0F-B0E7-D206C177991B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C794716-9DC6-4D0F-B0E7-D206C177991B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
