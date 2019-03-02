@@ -9,17 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{F9F0CF4E-B98A-47FE-BA8A-A0681F6F3BD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{1C794716-9DC6-4D0F-B0E7-D206C177991B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{1C794716-9DC6-4D0F-B0E7-D206C177991B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{D7922EBF-99E4-4871-9C22-3AFF36895451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{D7922EBF-99E4-4871-9C22-3AFF36895451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoType", "ProtoType\ProtoType.csproj", "{127FD060-1F0B-4423-BB3D-9E55928B555A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtoType", "ProtoType\ProtoType.csproj", "{127FD060-1F0B-4423-BB3D-9E55928B555A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempleteMethod", "TempleteMethod\TempleteMethod.csproj", "{12CD1BAC-A187-4673-94A2-36C72B5A9F95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempleteMethod", "TempleteMethod\TempleteMethod.csproj", "{12CD1BAC-A187-4673-94A2-36C72B5A9F95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{ACC28E6A-7EE3-48F3-AB09-B4086002DBA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{ACC28E6A-7EE3-48F3-AB09-B4086002DBA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{C696E3B6-4853-485D-A1C9-10098D67ECFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{C696E3B6-4853-485D-A1C9-10098D67ECFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{E5BB92E2-3F6E-4CB6-9335-79E442086308}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{C696E3B6-4853-485D-A1C9-10098D67ECFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C696E3B6-4853-485D-A1C9-10098D67ECFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C696E3B6-4853-485D-A1C9-10098D67ECFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5BB92E2-3F6E-4CB6-9335-79E442086308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5BB92E2-3F6E-4CB6-9335-79E442086308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5BB92E2-3F6E-4CB6-9335-79E442086308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5BB92E2-3F6E-4CB6-9335-79E442086308}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
