@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Command
 {
-    class Receiver
+    public class Receiver
     {
         public void Action()
         {

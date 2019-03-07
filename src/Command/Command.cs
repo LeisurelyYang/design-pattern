@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Command
 {
-    abstract class Command
+    public abstract class Command
     {
         protected Receiver receiver;
         public Command(Receiver receiver)

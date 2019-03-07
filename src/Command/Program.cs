@@ -6,12 +6,28 @@ namespace Command
     {
         static void Main(string[] args)
         {
-            Receiver r = new Receiver();
-            Command c = new ConcreteCommand(r);
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            //Receiver r = new Receiver();
+            //Command c = new ConcreteCommand(r);
 
-            Invoke i = new Invoke();
-            i.SetCommand(c);
-            i.ExecCommand();
+            //Invoke i = new Invoke();
+            //i.SetCommand(c);
+            //i.ExecCommand();
+
+            Barbecuer boy = new Barbecuer();
+
+            AbstractCommand bakeMuttonCommand1 = new BakeMuttonCommond(boy);
+
+            AbstractCommand bakeMuttonCommand2 = new BakeMuttonCommond(boy);
+
+            AbstractCommand bakeChickenCommand = new BakeChickenWingCommond(boy);
+
+            Waiter girl = new Waiter();
+            girl.SetOrder(bakeMuttonCommand1);
+            girl.SetOrder(bakeMuttonCommand2);
+            girl.SetOrder(bakeChickenCommand);
+
+            girl.Notify();
             Console.ReadKey();
         }
     }
