@@ -41,7 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{5239053B-D408-478A-9104-B07218BA5FA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{0B8A6CA4-6706-47B3-9C5F-7764BE181FDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{68F0B4F0-1A4D-42DA-9D7B-2A540AB4725A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,10 +125,10 @@ Global
 		{5239053B-D408-478A-9104-B07218BA5FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5239053B-D408-478A-9104-B07218BA5FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5239053B-D408-478A-9104-B07218BA5FA6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0B8A6CA4-6706-47B3-9C5F-7764BE181FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B8A6CA4-6706-47B3-9C5F-7764BE181FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B8A6CA4-6706-47B3-9C5F-7764BE181FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B8A6CA4-6706-47B3-9C5F-7764BE181FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F0B4F0-1A4D-42DA-9D7B-2A540AB4725A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F0B4F0-1A4D-42DA-9D7B-2A540AB4725A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F0B4F0-1A4D-42DA-9D7B-2A540AB4725A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F0B4F0-1A4D-42DA-9D7B-2A540AB4725A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
