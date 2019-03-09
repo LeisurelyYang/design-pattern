@@ -35,15 +35,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{FCF6CD14-FBA1-45F1-B9B7-921DB52D127B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{8054C6DE-1699-4A1A-B433-31CB07403A0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{8054C6DE-1699-4A1A-B433-31CB07403A0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{0A4C04B1-120F-4BE4-9AF8-49E127C3AAB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{0A4C04B1-120F-4BE4-9AF8-49E127C3AAB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{5239053B-D408-478A-9104-B07218BA5FA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{5239053B-D408-478A-9104-B07218BA5FA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{68F0B4F0-1A4D-42DA-9D7B-2A540AB4725A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyweight.csproj", "{68F0B4F0-1A4D-42DA-9D7B-2A540AB4725A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{6A5A9B85-8008-44E2-BF50-76418AAF47C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\Interpreter.csproj", "{6A5A9B85-8008-44E2-BF50-76418AAF47C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{EE5E40A0-AF91-4940-BE02-0C697BC097F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{6A5A9B85-8008-44E2-BF50-76418AAF47C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A5A9B85-8008-44E2-BF50-76418AAF47C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A5A9B85-8008-44E2-BF50-76418AAF47C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5E40A0-AF91-4940-BE02-0C697BC097F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5E40A0-AF91-4940-BE02-0C697BC097F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5E40A0-AF91-4940-BE02-0C697BC097F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5E40A0-AF91-4940-BE02-0C697BC097F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
